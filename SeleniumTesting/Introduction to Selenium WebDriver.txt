@@ -1,0 +1,81 @@
+This Text Document contains the following content.
+
+Introduction to Selenium WebDriver:
+-----------------------------------
+	I. Introduction to Selenium WebDriver
+	II. WebDriver Environment Setup
+	III. Create First Selenium Test Case.
+	
+Selenium Tool Suite:
+	Selenium IDE
+	Selemium RC
+	Selenium WebDriver
+	Selenium Grid
+
+2006 - Selenium 1.0 - (Selenium IDE + Selenium RC + Selenium Grid)
+
+2008 - Selenium 2.0 - (Selenium IDE + Selenium RC + Selenium WebDriver + Selenium Grid)
+
+Note : Selenum RC is only for Maintenance Projects.
+
+Selenium WebDriver : (Features)
+--------------------
+	- Selenium WebDriver is a powerful Selenium Tool Suite.
+	- Selenium WerDrive has a Programming Interface only, it doesn't have an IDE.
+	- Selenium WebDriver supports various Programming Languages to write Test Scripts.
+	- Selenium WebDriver supports various Browsers to create and Execute the Test Scripts.
+	- Selenium WebDriver Supports various Operating Environments.
+	- Selenium WebDriver supports Data Driven Testing and Cross Browser Testing.
+	- Selenium WebDriver is faster than other tools of Selenium tool Suite because it has Programming Features.
+	- With the help of JUnit or TestNG Frameworks, Selenium WebDriver supports Parallel Test Scripts Execution.
+	
+Drawbacks (Selenium WebDriver) :
+--------------------------------
+	- Selenium WebDriver doesn't have IDE (Difficult to create Test Cases - No Recording Feature).
+	- Selenium WebDriver has no built in Result Reporting Facility.
+	- No other tool integration for Test Management.
+	- No Centralized Maintenance of Elements/Objects.
+	
+How to create Test Cases or Test Scripts in Selenium WebDriver:
+---------------------------------------------------------------
+	- Using Element Locators and WebDriver Commands/Methods (Selenese Commands) we can create Test Cases.
+	
+Element Locators : 
+------------------
+	- To identify the elements.
+	
+WebDriver Commands/Methods :
+----------------------------
+	- To perform Operations on elements.
+	
+Java Programming :
+------------------
+	- For Enhancing Test Cases.
+	
+TestNG Framework : 
+------------------
+	- For Grouping Test Cases, Batch testing and Generating Detailed Test Reports.
+	
+	
+Selenium WebDriver Environment Setup :
+--------------------------------------
+	- Download and Install Java Software(JDK) - To Create Test Scripts.
+	- Set Environmental Variable (Path Variable).
+	- Download Eclipse IDE and Extract - To Create and Execute Test Scripts.
+	- Download WebDiver Java Language Binding and add WebDriver jar files to Java Project in Eclipse IDE.
+	- Install Firebug and Firepath Plug ins (Mozilla Firefox Plug ins) for Inspecting Elements in Mozilla Firefox.
+	- For Inspecting Elements in Google Chrome and Internet Explorer Browsers we can use Built in Developer tools.
+	- Firefox Driver is the Default Driver in Selenium WebDriver. For Internet Explorer and Google Chrome etc., browsers we need to download the respective Browser Drivers.
+	
+Configuring the Browser Drivers(WebDriver jar Files) to the Java Project : 
+-----------------------------------------------------
+	- Create a Java Project.
+	- Select Java Project and Right Click
+	- Select Built Path.
+	- Configure Build path.
+	- Select "Libraries" tab.
+	- Click "Add External jars"
+	- Browse path of the WebDriver jars.
+	- Add
+		
+
