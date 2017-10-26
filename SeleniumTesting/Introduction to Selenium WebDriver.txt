@@ -2,9 +2,12 @@ This Text Document contains the following content.
 
 Introduction to Selenium WebDriver:
 -----------------------------------
-	I. Introduction to Selenium WebDriver
-	II. WebDriver Environment Setup
+	I. Introduction to Selenium WebDriver.
+	II. WebDriver Environment Setup.
 	III. Create First Selenium Test Case.
+	
+	
+I. Introduction to Selenium WebDriver.	
 	
 Selenium Tool Suite:
 	Selenium IDE
@@ -66,6 +69,9 @@ Selenium WebDriver Environment Setup :
 	- Install Firebug and Firepath Plug ins (Mozilla Firefox Plug ins) for Inspecting Elements in Mozilla Firefox.
 	- For Inspecting Elements in Google Chrome and Internet Explorer Browsers we can use Built in Developer tools.
 	- Firefox Driver is the Default Driver in Selenium WebDriver. For Internet Explorer and Google Chrome etc., browsers we need to download the respective Browser Drivers.
+
+
+II. WebDriver Environment Setup.
 	
 Configuring the Browser Drivers(WebDriver jar Files) to the Java Project : 
 -----------------------------------------------------
@@ -79,3 +85,33 @@ Configuring the Browser Drivers(WebDriver jar Files) to the Java Project :
 	- Add
 		
 
+Create Selenium WebDriver Test Case :
+-------------------------------------
+	- Import WebDriver and Firefox/Chrome/IE Browser Libraries. (In Selenium Test Scripts)
+	- Using Element Locators and WebDriver Commands, write Test Steps.
+	- Insert Java Programming Statements to enhance Test Cases.
+	- Using TestNG Annotations Group Test Cases, Execute Test Batches and generate Detailed Test Reports.
+	
+	
+III. Create First Selenium Test Case.
+
+Manual Test Case : 
+------------------
+	Test Case ID : npptrade_admin_TC0001
+	Test Case Name : Verify Admin Login in NPP Trading Web Portal.
+	Test Steps : 
+		- Laaunch the Browser and Navigate to "https://www.npptrades/build1/admin".
+		- Enter Username.
+		- Enter Password.
+		- Click Login Button.
+	Input Data : 
+		Username = admin
+		Password = admin@123
+	Expected url : "https://www.npptrades/build1/admin/index.php"
+	Actual url : "https://www.npptrades/build1/admin/index.php"
+	Test Result : Pass
+	
+* Verification Point : Capture the Browser URL after submission of Login details and Compare with Expected URL.
+	
+	
+	
