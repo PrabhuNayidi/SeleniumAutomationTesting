@@ -1,0 +1,61 @@
+Selenium WebDriver Methods:
+---------------------------
+	- Selenium WebDriver Methods are used to perform Operations on Web Elements.
+	- Using Element Locators and WebDriver Methods we can create Test Cases in Selenium.
+		- Element Locators - for Recognizing Elements.
+		- WebDriver Methods - for performing Operations on Elements.
+	- get():
+		- Description --> Opens a Specified URL in the Web Browser Window.
+		- Syntax --> driverobject.get("URL");
+	- getTitle():
+		- Description --> Returns Title of the Browser.
+		- Syntax --> String t = driverobject.getTitle();
+	- getPageSource():
+		- Description --> Returns HTML Page Source.
+		- Syntax --> String source = driverobject.getPageSource();
+	- getCurrentUrl():
+		- Description --> Returns Current URL of the Web Browser.
+		- Syntax --> String url = driverobject.getCurrentUrl();
+Browser Navigation Methods:
+	- navigate().to():
+		- Description --> Loads a new Web Page in the Current Browser Window.
+		- Syntax --> driverobject.navigate().to("url");
+	- navigate().back(): // We can also use navigate().to("url") method to load a particular url. 
+		- Description --> Moves a Single Item back in the Web Browser History.
+		- Syntax --> driverobject.navigate().back();
+	- navigate().forward():
+		- Description --> Moves a Single Item forward in the Web Browser History.
+		- Syntax --> driverobject.navigate().forward();
+	- navigate().refresh():
+		- Description --> Refreshes the Current Web Page.
+		- Syntax --> driverobject.navigate().refresh();
+	- close():
+		- Description --> Closes the current/focused Web Browser.
+		- Syntax --> driverobject.close();
+	- quit():
+		- Description --> Closes all Web Browsers opened by Web Driver during the execution.
+		- Syntax --> driverobject.quit();
+	- findElement():
+		- Description --> Finds the First Element within the Current Web Page using the specified Locator.
+		- Syntax --> driverobject.findElement(By.elementLocator("value"));
+	- sendkeys():
+		- Description - Enters a value into an Edit Box or Text Box.
+		- Syntax - driverobject.findElement(By.elementLocator("value")).sendkeys("Input a Value");
+	- clear():
+		- Description --> Clears the value in a Text Box or Edit Box.
+		- Syntax --> driverobject.findElement(By.elementLocator("value")).clear();
+	- click():
+		- Description --> Clicks an Element (Button, Link, Image).
+		- Syntax --> driverobject.findElement(By.elementLocator("value")).click();
+	- isEnabled():
+		- Description --> Checks whether an Element is in enabled state or not. Returns boolean value.
+		- Syntax --> boolean val = driverobject.findElement(By.elementLocator("value")).isEnabled();
+	- isDisplayed():
+		- Description --> Checks whether an Element is Displayed or not in the Current Web Page. Returns a Boolean value. 
+		- Syntax --> boolean val = driverobject.findElement(By.elementLocator("value")).isDisplayed();
+	- isSelected():
+		- Description --> Checks whether an Element is Selected or not. Returns a Boolean value.
+		- Syntax --> boolean val = driverobject.findElement(By.elementLocator("value")).isSelected();
+	- manage().window().maximize():
+		- Description --> Maximizes the Web Browser Window. 
+		- Syntax -- > driverobject.manage().window().maximize();
