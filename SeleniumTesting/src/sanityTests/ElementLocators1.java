@@ -32,6 +32,17 @@ public class ElementLocators1 {
 		d2.findElement(By.xpath(".//*[@id='identify_email']")).sendKeys("sample.new@gmail.com");
 		d2.findElement(By.name("did_submit")).click();
 		
+		d2.get("https://www.google.com/");
+		d2.findElement(By.linkText("Images")).click();
+		
+		d2.get("https://www.google.com/");
+		d2.findElement(By.partialLinkText("St")).click();
+		
+		d2.get("https://www.google.com/");
+		d2.findElement(By.cssSelector(".gb_P")).click();
+		
+		d2.get("https://www.google.com/");
+		d2.findElement(By.xpath(".//*[@id='gbw']/div/div/div[1]/div[2]/a")).click();
 		
 		d2.close();
 	}
