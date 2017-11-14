@@ -141,5 +141,28 @@ Web Elements and Element Locators :
 		- Using Firebug and Firepath plug ins we can Inspect Elements in Mozilla Firefox Browser.
 		- Using Built in Developer Tools we can inspect Elements in Google Chrome Browser.
 		- Element Locators are common for all Web Browsers.
+		- id
+			- Syntax ---- driver.findElement(By.id("email"));
+				--- driver = object; findElement = WebDriver Method; By = class; id = Locator; email = value
+			- driver.findElement(By.id("Email")).sendkeys("sampleemail@gmail.com");
+			  driver.findElement(By.id("Email")).clear();
+			  				or
+			- webElement e1 = driver.findElement(By.id("Email")); // Storing Object Reference
+			  e1.sendkeys("sampleemail@gmail.com");
+			  e1.clear();
+		- name
+			- Syntax ----- driver.findElement(By.name("password"));
+		- className
+			- Syntax ----- driver.findElement(By.className("uf-2-6d")).sendkeys("black");
+		- tagName
+			- Syntax ----- driver.findElement(By.tagName("input")).sendkeys("myName");
+		- linkText
+			- Syntax ----- driver.findElement(By.linkText("Images")).click();
+		- partialLinkText
+			- Syntax ----- driver.findElement(By.partialLinkText("Im")).click();
+		- cssSelector
+			- Syntax ----- driver.findElement(By.cssSelector(".bn-2-34")).click();
+		- xpath (xpath in an XML Document shows the direction of a Web Application's Element Location)
+			- Syntax ----- driver.findElement(By.xpath(".//*[@id='gbw']/div/div/div[1]/div[2]/a")).click();
 		
 		 
