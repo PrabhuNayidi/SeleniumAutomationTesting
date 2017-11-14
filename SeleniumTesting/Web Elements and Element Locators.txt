@@ -1,0 +1,145 @@
+Web Elements and Element Locators : 
+-----------------------------------
+	
+	Web Elements : 
+	--------------
+		- In Functional Test Automation :
+			- For Handling Browser and Web Page -> Use Driver Object
+			- For Remaining Elements -> Use Web Driver COmmands or Web Driver Methods
+		- Important Web Elements : (Web Environment)
+			- Edit Box
+			- Link
+			- Button
+			- Image, Image Link, Image Button
+			- Text Area
+			- Check Box
+			- Radio Button
+			- Drop Down Box
+			- List Box
+			- Combo Box
+			- Web Table or HTML Table
+			- Frame
+			
+	Operations on a Web Browser : (Operations on Browser Object)
+	-----------------------------
+		- Launch browser.
+		- Navigate to a URL.
+		- Close focused browser
+		- Close all opened browsers.
+		- Navigate from one URL to another URL.
+		- Navigate to previous URL.
+		- Navigate to next URL.
+		- Refresh a URL.
+		- Minimize the browser.
+		- Maximize the browser.
+		
+	Operations on a Web Page : 
+	--------------------------
+		- Get Page Title.
+		- Get Page Source.
+		- Get Page URL.
+		
+	Operations on an Edit Box :
+	---------------------------
+		- Enter some value.
+		- Clear the value.
+		- Check the existence.
+		- Check enabled status.
+		- Get the value.
+		
+	Operations on a Link :
+	----------------------
+		- Click.
+		- Check the Existence.
+		- Check enabled status.
+		- Return Link name.
+		
+	Operations on a Button :
+	------------------------
+		- Click.
+		- Check enabled status.
+		- Check displayed status.
+		
+	Operations on Image :
+	---------------------
+		- General Image
+		- Image Button -> Submits
+		- Image Link -> Click - Redirects to another Page or Location.
+		
+	Operations on Text Area :
+	-------------------------
+		- Return or Capture Text Area.
+	
+	Operations on a Check Box :
+	---------------------------
+		- Check if the check box is displayed or not.
+		- Check if the check box is enabled or not.
+		- Select.
+		- Unselect.
+		
+	Operations on a Radio Button : 
+	------------------------------
+		- Select Radio Button.
+		- Check the existence.
+		- Check the enabled status.
+		- Verify if the Radio Button is selected or not.
+	
+	Operations on Drop Down Box :
+	-----------------------------
+		- Select an Item.
+		- Check the existence.
+		- Check the enabled status.
+		- Items Count.
+		
+	Operations on a List Box :
+	--------------------------
+		- Select one or more Items.
+		- Items Count.
+		- Check the existence.
+		- Check the enabled status.
+		
+	Operations on a Combo Box : (Drop Down and Edit/Text Box)
+	---------------------------
+		- Select an Item.
+		- Enter an Item.
+		- Check the existence.
+		- Check the enabled status.
+	
+	Operations on a Web Table or HTML Table : 
+	-----------------------------------------
+		- Get Cell value.
+		- Rows Count.
+		- Cells Count.
+		
+	Operations on Frame : 
+	---------------------
+		- Switch from Top Window to a Frame.
+		- Switch from a Frame to Top Window.
+		
+		
+	Element Locators :
+	------------------
+		In UFT:
+			Object    Property   Value
+			Web Page  Title      Facebook
+		In Selenium:
+			Element     Locator    Value
+			Text Box    name	   Username
+		- Locator is an address that identifies a Web Element uniquely within a Web Page.
+		- Selenium supports 8 Element locaators to recognize Elements on a Web Page.
+			- id
+			- name
+			- className
+			- tagName
+			- linkText
+			- partialLinkText
+			- cssSelector
+			- xpath
+		- Necessity of Different Element Locators:
+			- Developers may not provide all locators for all Elements.
+			- Some locators may be duplicated.
+		- Using Firebug and Firepath plug ins we can Inspect Elements in Mozilla Firefox Browser.
+		- Using Built in Developer Tools we can inspect Elements in Google Chrome Browser.
+		- Element Locators are common for all Web Browsers.
+		
+		 
