@@ -111,7 +111,7 @@ Handling Edit Box:
 	- Operations on Edit Box:
 		- Enter a Value.
 		- Clear a Value.
-		- Return the Value.
+		- Return the Value. --> use driverobject.findElement(By.elementLocator("value")).getAttribute("value");
 		- Check Displayed Status.
 		- Check Enabled Status.
 		
