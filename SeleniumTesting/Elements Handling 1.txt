@@ -1,0 +1,136 @@
+Handling Elements in Selenium:
+------------------------------
+
+	Pre-requisites to create Test Cases in Selenium:
+	------------------------------------------------
+		- Element Locators --> To Recognize or Identify Elements.
+		- WebDriver Methods --> To Perform Operations on Elements.
+		- Programming Features --> To Enhance Test Cases.
+		- TestNG or JUnit Annotations --> Grouping Test Cases, Test Batch Execution, Generating Detailed Test Reports.
+
+	 Web Elements:
+	 -------------
+	 	- Edit Box
+		- Link
+		- Button
+		- Image, Image Link, Image Button
+		- Text Area
+		- Check Box
+		- Radio Button
+		- Drop Down Box
+		- List Box
+		- Combo Box
+		- Web Table or HTML Table
+		- Frame
+		
+	 Element Locators:
+	 -----------------
+	 	- id.
+	 	- name.
+	 	- className.
+	 	- tagName.
+	 	- linkText.
+	 	- partialLinkText.
+	 	- cssSelector.
+	 	- xpath.
+	 	
+	 WebDriver Methods:
+	 ------------------
+	 	- Methods on Browser:
+	 		- get().
+	 		- getTitle().
+	 		- getPageSource().
+	 		- getCurrentUrl().
+	 		- getWindowHandle().
+	 		- close().
+	 		- quit().
+	 	- Methods on Browser Navigation:
+	 		- navigate().to()
+	 		- navigate().back()
+	 		- navigate().forward()
+	 		- navigate().refresh()
+	 	- Methods on Elements:
+	 		- findElement().
+	 		- findElements().
+	 		- sendkeys().
+	 		- click().
+	 		- clear().
+	 		- isEnabled().
+	 		- isDisplayed().
+	 		- isSelected().
+	 		- getText().
+	 		- getAttribute().
+	 	- Other Methods:
+	 		- manage.window.maximize().
+	 		- explicitlywait().
+	 
+	 Java Programming Features:
+	 --------------------------
+	 	- Java Fundamentals:
+	 		- Comments.
+	 		- Data Types.
+	 		- Modifiers.
+	 		- Variables.
+	 		- Operators.
+	 		- Flow Control Statements:
+	 			- Conditional Statements.
+	 			- Loop Statements.
+	 		- String Handling.
+	 		- Arrays.
+	 		- Methods:
+	 			- Biult In Methods.
+	 			- User Defined Methods.
+	 		- I/O Operations.
+	 		- Exception Handling.
+	 	- Java OOPS:
+	 		- Inheritance.
+	 		- Polymorphism.
+	 		- Abstraction.
+	 		- Encapsulation.
+	 		
+	
+Handling Browser:
+-----------------
+	- Operations on Browser:
+		- Launch the Browser.
+		- Navigate to a Specified URL.
+		- Return Current URL.
+		- Get the Page Title.
+		- Return Page Source.
+		- Return Window Handle.
+		- Close the Focused Browser.
+		- Close all Browsers opened by a Selenium WebDriver during Execution.
+		- Navigate to Another URL.
+		- Navigate back to Previous URL.
+		- Navigate Forward.
+		- Refresh the Browser.
+		- Maximize the Browser Window.
+		
+Handling Edit Box:
+------------------
+	- Operations on Edit Box:
+		- Enter a Value.
+		- Clear a Value.
+		- Return the Value.
+		- Check Displayed Status.
+		- Check Enabled Status.
+		
+Handling Text Area:
+-------------------
+	- Operations on Text Area:
+		- Capture Text Area or Capture Error Message.
+
+Handling Window Popup:
+----------------------
+	- Operations on a Window Popup: Use import org.openqa.selenium.Alert;
+		- Error Popup --> Use dismiss() in Alert Interface.
+		- Confirmation Popup --> Use accept() in Alert Interface.
+		
+Handling Button:
+----------------
+	- Operations on Button:
+		- Click().
+		- Check the Displayed Status.
+		- Check the Enabled Status.
+		- Return name of the object.
+		- Return Type of the Object.
