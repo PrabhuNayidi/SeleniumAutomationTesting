@@ -1,3 +1,54 @@
 Handling Elements in Selenium (Part 2):
 ---------------------------------------
 
+Handling Image:
+---------------
+	- Types of Image Elements in Web Environment:
+		- General Image (No Functionality).
+		- Image Button (Submits).
+		- Image Link (Directs to another URL).
+		
+Handling Link:
+--------------
+	- Operations on Link:
+		- Click.
+		- Check the Link Existence.
+		- Check Enabled Status.
+		- Check Displayed Status.
+		- Return Link name.
+		
+Handling Radio Button:
+----------------------
+	- Operations on Radio Button:
+		- Select.
+		- Check Enabled Status.
+		- Check Displayed Status.
+		- Check Selected Status.
+		
+Handling Drop Down Box: (Use Select Instance for Drop Down Box Element. Select Instance is required to select an Item from a Item List.)
+-----------------------
+	- Operations on Drop Down Box:
+		- Select an Item.
+		- Check Displayed Status.
+		- Check Enabled Status.
+		- Items Count.
+		
+Handling Check Box:
+-------------------
+	- Operations on Check Box:
+		- Select.
+		- Unselect.
+		- Check Displayed Status.
+		- Check Enabled Status.
+		- Check Selected Status.
+		
+Handling Web Table or HTML Table:
+---------------------------------
+	- Operations on a HTML Table:
+		- Getting Cell Value.
+		- Rows Count.
+		- Cells Count.
+		
+Handling Inline Elements:
+-------------------------
+	- Span tag is used to Group Inline Elements in a HTML Document. 
