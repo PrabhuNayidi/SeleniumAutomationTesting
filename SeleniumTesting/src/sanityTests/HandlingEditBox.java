@@ -20,7 +20,7 @@ public class HandlingEditBox {
 		
 		WebElement eb1 = f1.findElement(By.xpath(".//*[@id='identifierId']"));
 		eb1.sendKeys("samplename@gmail.com"); //Enter a value into a Text Box.
-		System.out.println("The Existing value in the Selected Edit Box is : " + eb1.getText());
+		System.out.println("The Existing value in the Selected Edit Box is : " + eb1.getAttribute("value"));
 		Thread.sleep(3000);
 		eb1.clear(); //Clear the existing value.
 		
