@@ -1,3 +1,29 @@
 Handling Elements in Selenium (Part 3):
 ---------------------------------------
 
+Handling Frames:
+----------------
+	- HTML Frames are used to divide our Browser Window into Multiple Sections, where each section can load a Seperate HTML Document.
+	- Frames are Sections of a Web Page displayed on Top Window.
+	- Whenever we Access the Page, then Focus is on Top Window.
+	- Switching between the frames can be done in two ways:
+		- Top Window to a Frame:
+			- Using Switch Index. Index starts from 0.
+				Syntax --> driverobject.switchTo().frame(int index);
+			- Using Frame Name.
+				Syntax --> driverobject.switchTo().frame(String framename);
+		- Frame to Top Window:
+			- Syntax --> driverobject.switchTo().defaultContent();
+			
+Handling Mouse Hover: (HTML Mouse Event)
+----------------------------------------
+	- Using Actions Interface and Creating Action Builder.
+	- Syntax --> Actions actionName = new Actions(WebDriver Instance);
+	
+Handling Multiple Browsers:
+---------------------------
+	- Using Window Handle
+	
+Handling Duplicate Objects:
+---------------------------
+	- Redirecting to GCR Shop User Interface from Admin User Interface. (Condition: After login to the Admin User Interface).
