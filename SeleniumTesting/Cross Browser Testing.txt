@@ -1,3 +1,31 @@
 Cross Browser Testing in Selenium: (Using Selenium WebDriver)
 -------------------------------------------------------------
-	- 
+	- Cross Browser testing is a type of Test to check that the Web Application works as Expected in Different Browsers.
+	- A typical Web Application can be opened in any Web Browser by the End User. So we need to ensure that the Web Application has to work as expected in all popular browsers.
+	- Most Popular Browsers:
+		- Google Chrome --> Released in 2008 (68%)
+		- Mozilla Firefox --> Released in 2004 (19%)
+		- Internet Explorer --> Released in 1995 (6.5%)
+	- Working with Different Browsers:
+		- Selenium WebDriver supports Browser Compatibility Tests on almost every popular Browser (includes Chrome, Firefox, IE, Opera and Safari).
+		- The Selenium WebDriver API drives a Web Browser as the real User would drive it in real time.
+		- By default Firefox Driver comes with Selenium-Serverstandalone.jar library.
+		- For browsers like Chrome, IE, Opera and Safari, there are libraries that are needed to be instantiated externally.
+	- Performing the Cross Browser Testing using Selemium WebDriver:
+		- Element Locators --> same for all browsers.
+		- WebDriver Methods --> same for all browsers.
+		- Programming Features --> same for all browsers.
+		- TestNG or JUnit Annotations --> Same for all browsers.
+		- Browser Driver --> varies from one browser to another.
+		- Inspect Elements --> use page inspector (firebug and firepath addons) for Firefox, use built in developer tools for chrome and IE browsers.
+	- Create Browser Drivers:
+		- For Google Chrome, IE and Other Browsers, download browser drivers and set the file path in Selenium Test Scripts.
+		- Mozilla Firefox Browser:
+			- WebDriver driverobject = new FirefoxDriver();
+		- Google Chrome Browser:
+			- System.setProperty("webdriver.chrome.driver", "filepath"); // Chrome Browser Driver Instantiation.
+			  WebDriver driverobject = new ChromeDriver();
+		- Internet Explorer Browser:
+			- System.setProperty("webdriver.ie.driver", "filepath"); // Internet Explorer Driver Instantiation. 
+			WebDriver driverobject = new InternetExplorerDriver();
+ 
