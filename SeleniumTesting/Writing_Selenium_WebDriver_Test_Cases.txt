@@ -1,4 +1,87 @@
 Writing Test Cases:
 -------------------
 
+	- Test Scenario (Includes Test Steps, Test Data, Verification Points etc.)
+	- Element Locators --> To identify the Elements.
+	- Selenium WebDriver Methods. --> To perform Operations on the Elements.
+	- Programming Features. --> To Enhance the Test Cases.
+	- TestNG or JUnit Annotations. --> To Group Test Cases, To perform Batch Testing, To Generate Detailed Reports.
 	
+
+Test Case 1 : Verify Internal and External Links in wikipedia.org
+-----------------------------------------------------------------
+Internal Link : It redirects to another page or location in the same Application.
+External Link : It redirects to another page in other Application.
+
+Test Steps:
+-----------
+	- Launch the Browser (Chrome, Firefox, Internet Explorer).
+	- Navigate to Youtube page in Selenium.org.
+	- Click Login Link.
+	- Capture Current URL.
+	- Navigate back to Youtube page in Selenium.org.
+	- Click Youtube.com Link.
+	- Capture Current URL.
+	- Close Browser.
+	- Verification Points:
+		- Check whether the First Link is an Internal Link or not.
+		- Check whether the Second Link is an External Link or not.
+		
+Test Case 2 : Verify Element Existence (Forgot Password Existence in Well Fargo Web Application)
+------------------------------------------------------------------------------------------------
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to Well Fargo Application.
+	- Close Browser.
+	- Verification Point:
+		- Check the Forgot Password Existence.
+		
+Test Case 3 : IRCTC Online Web Portal Login Page
+------------------------------------------------
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to https://www.irctc.co.in/eticketing/loginHome.jsf.
+	- Enter USER ID.
+	- Enter Password.
+	- Enter CAPTCHA. --> Verification Code
+	- Click Login Button.
+	- Verification Point:
+		- Capture the URL and compare with https://www.irctc.co.in/eticketing/Home.
+		
+Test Data:
+----------
+	- gcreddy7 --> Static Input
+	- gld938 --> Static Input
+	- CAPTCHA --> Dynamic Input
+	
+Test Case 4 : Verify Customer Registration in gcrshop Web Portal:
+-----------------------------------------------------------------
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to http://gcrit.com/build3/
+	- Enter all the Mandatory Fields.
+	- Click continue button.
+	
+Verification Point:
+-------------------
+	- Capture confirmation Message form Text Area after clicking the continue button and compare with the Expected Value.
+	
+Test Case 5 : Verify Customer Login in gcrshop Web Portal:
+----------------------------------------------------------
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to http://gcrit.com/build3/
+	- Enter Email Address and Password.
+	- Click Sign in Button.
+
+Verification Point:
+-------------------
+	- Capture Current URL after login and compare with the Expected Value.
