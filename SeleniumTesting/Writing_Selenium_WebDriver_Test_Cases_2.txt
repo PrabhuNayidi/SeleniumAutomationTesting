@@ -1,3 +1,89 @@
 Writing Test Cases 2:
 ---------------------
 
+Test Case 6 : Check admin login functionality in gcrshop web portal. (Positive Test Case)
+-----------------------------------------------------------------------------------------	
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to the grcshop Admin Interface (https://www.gcrit.com/build3/admin/)
+	- Enter Valid Username and Password.
+	- Click login button.
+	
+Verification Point:
+-------------------
+	- Capture the Current URL and compare with the expected URl.(https://www.gcrit.com/build3/admin/index.php)
+	
+Test Data:
+----------
+	- Username --> admin
+	- Password --> admin@123
+	
+
+Test Case 6 : Check Error Message in admin login functionality in gcrshop web portal. (Positive Test Case)
+---------------------------------------------------------------------------------------------------------- 
+
+Test Steps:
+-----------
+	- Launch the Browser.
+	- Navigate to the grcshop Admin Interface (https://www.gcrit.com/build3/admin/)
+	- Enter Invalid Username or/and Password.
+	- Click login button.
+	
+Verification Point:
+-------------------
+	- Capture the Error Message and compare with the expected Error Message.( Error: Invalid administrator login attempt.)
+	
+Test Data:
+----------
+	- Username --> admin
+	- Password --> admin123
+	
+
+Test Case 7 : Check admin functionality in gcrshop web portal with valid and invalid inputs.  (Positive and Negative Test Cases)
+-------------------------------------------------------------------------------------------------------------------------------- 
+
+Test Steps:
+-----------
+	- Launch the Browser
+	- navigate to gcrshop Admin Interface (https://www.gcrit.com/build3/admin/)
+	- Enter Valid Username and Password.
+	- Click Login Button.
+	*Repeat the above test steps using Invalid Username or/and Password.
+	
+Verification Points:
+--------------------
+	- Capture the Current URL and Compare with the Expected URL after passing the Valid Login Credentials.(https://www.gcrit.com/build3/admin/index.php)
+	
+	Test Data:
+	----------
+		- Username --> admin
+		- Password -->admin@123
+	
+	- Capture the Error Message and Compare with the Expected Error Message.( Error: Invalid administrator login attempt.)
+	
+	Test Data:
+	----------
+		- Username --> admin
+		- Password -->admin123
+		
+	Possible Test Data for Negative Test Cases:
+	-------------------------------------------
+		- Invalid Username and Invalid Password.
+		- Invalid Username and Valid Password.
+		- Valid Username and Invalid Password.
+		- Invalid Username and Blank Password.
+		- Blank Username and Invalid Password.
+		- Valid Username and Blank Password.
+		- Blank Username and valid Password.
+
+Test Case 8 : Check Communication between different Browsers:
+-------------------------------------------------------------
+
+Test Steps:
+-----------
+	- Create Mozilla Firefox Browser driver and Google Chrome Browser driver.
+	- Launch Three Different Applications.
+	- Interact from one application to another.
+	- Close all browsers one after another.
