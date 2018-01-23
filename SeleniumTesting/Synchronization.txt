@@ -1,0 +1,21 @@
+Synchronization:
+----------------
+
+	- General Definition:
+		- Process of Coordinating two or more Processes in time.
+	- Test Automation Definition:
+		- Process of matching the speeds of AUT (Application Under Test) and Test Tool in order to get Proper Execution.
+	
+	- Why Synchronization is Required?
+		- During Test Execution Test Tool gives instructions one by one with same speed. But UAT takes less time for some steps execution and morre time dor some other steps execution, in order to keep them Sync the concept of Synchronization is required.
+	
+	- Types of Synchronization:
+		- Unconditional Synchronization: (wait for the specified time)
+			- In this type of Synchronization we specify timeout value, we will make the tool to wait certain amount of time and then proceed.
+			- Syntax : 
+				- Thread.sleep(time in milliseconds);
+		- Conditional Synchronization: (wait for the required time)
+			- It will not work for all Statements in the Application.
+			- It works only for findElement and findElements Statements.
+		- Syntax :
+			- driver.manage().timeouts().implicitlyWait(Time in seconds, TimeUnit.SECONDS);		
