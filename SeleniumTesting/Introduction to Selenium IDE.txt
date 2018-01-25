@@ -1,0 +1,65 @@
+Introduction to Selenium IDE (Integrated Development Environment):
+------------------------------------------------------------------
+	- It is a Test Tool in the Selenium Tool's Suite to Develop and Execute Test Cases.
+	- It is a Firefox Plug in. Works only on Firefox Web Browser.	
+	- It provides Graphical User Interface to record user actions using Firefox Browser, but user can Insert/Update/Delete Statements/Steps.
+	- Firebug and Firepath are used to inspect elements or we can use Firefox Browser Feature "Page Inspector" for Inspecting Elements.
+	- Selenium IDE should only be used as a prototyping tool.
+	- We can't develop complex test cases using selenium IDE.(No Programming Logic)
+	- Selenium IDE Test Steps:
+		- Command + Target + Value(Optional)
+			- Command : Forms the functionality of the Step.
+			- Target : Identifies the element on the web page.
+			- Value : Input Data (Applicable for a few commands)
+		- Example:
+			type	id=email	samplemail
+	- Selenium IDE Test Case Default Format is .html
+	- Create Test Cases in Selenium IDE:
+		- Using Element Locators and Selnium IDE Commands (Selenese Commands)
+	- Create Test Cases in Selenium WebDriver:
+		- Using Element Locators and Selenium WebDriver Commands/Methods.
+	- Selenium WebDriver Test Steps:
+		- Syntax :
+			- driverObject.webDriverMethod(By.elementLocator("Locator Value").webDriverMethod;
+		- Example :
+			- driver.findElement(By.name("username")).sendkeys("MyUsername");
+	- Limitations of Selenium IDE:
+		- It doesn't support Programming, we can't use programming features for enhancing test cases.
+		- It supports Mozilla Firefox Browser only to create and execute test cases, we can't conduct cross browser testing.
+		- Not suitable for complex test case design.
+		- No centralized maintenance of Elements/Objects.
+		- Data Driven Testing is not possible.
+		- No Detailed Test Reports, generates Summary only.
+	- Selenium IDE features:
+		- File Menu:
+			- Options for Test Case and Test Suite
+			- Create New Test Case
+			- Open Existing Test Case
+			- Save Test Case
+			- Export Test Case in a Suppoting Language
+			- All the above options are also avialable for Test Suite.
+		- Edit Menu:
+			- Copy, Cut, Paste, Delete, Undo etc., for editing Test Cases.
+			- Insert Command
+			- Insert New Comment etc.
+		- Actions Menu:
+			- Record and Run Test Case.
+			- Run Test Suite.
+			- Insert/Remove Break Points.
+			- Pause/Resume Test Execution etc.
+		- Options Menu:
+			- Allows us to change Selenium IDE settings, we can change Timeout value etc.
+		- Help Menu:
+			- It provides help documentation for selenium IDE.
+	- Test Case Pane in Selenium IDE:
+		- Test Case/Test Script is displayed in Test Case Pane.
+		- It has 2 tabs:
+			- Table Format - Displays Commands and Parameters.
+			- Source Format - Displays in HTML format (Native Format).
+	- Using Element Locators and Selenese Commands we can create Test Cases.
+	- We can create Test Cases in 2 ways:
+		- By Recording.
+		- By typing Test Cases Manually. ( Use id/name/link/xpath)
+	- 2 Types of Selenese commands:
+		- General Commands
+		- Verification Commands (Assert/Verify).
