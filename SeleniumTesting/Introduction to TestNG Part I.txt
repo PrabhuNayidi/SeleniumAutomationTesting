@@ -28,7 +28,9 @@ Overview:
 	- main() Method is not used for the TestNG Test Cases.
 	- TestNG Test Cases (Java Class Files) contains only Methods that contain @TestAnnotations.
 	- Methods won't be Executed if we didn't mention the TestNG Test Annotations.
-
+	- TestNG Test Cases (Multiple Test Cases in a single java class file) are executed in an alphabetical order.
+	- If you want to execute multiple Test Cases in a Particular Order, you have to use priority Attribute on TestNG Annotations.
+	
 TestNG Installation in Eclipse IDE:
 -----------------------------------
 	- Help Menu -> Install New Software -> Click Add -> Enter Name as "TestNG" -> Enter URL as "http://beust.com/eclipse/" -> Select "TestNG" -> -< Next -> Next -> Accept the Agreement -> Finish
