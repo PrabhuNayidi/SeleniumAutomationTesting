@@ -25,8 +25,11 @@ Overview:
 		- Parallel Test Execution is possible.
 		- Supports Integration with other tools and Plug ins like Eclipse IDE, Build Tools like Maven, Ant.
 		- In a brief sentence TestNG Testing Framework can be used to Create Test Cases, Group Test Cases, Prioritize Test Cases, Execute Test Cases and Generate Detailed Test Reports.
+	- main() Method is not used for the TestNG Test Cases.
+	- TestNG Test Cases (Java Class Files) contains only Methods that contain @TestAnnotations.
+	- Methods won't be Executed if we didn't mention the TestNG Test Annotations.
 
 TestNG Installation in Eclipse IDE:
 -----------------------------------
 	- Help Menu -> Install New Software -> Click Add -> Enter Name as "TestNG" -> Enter URL as "http://beust.com/eclipse/" -> Select "TestNG" -> -< Next -> Next -> Accept the Agreement -> Finish
-	  
+	
