@@ -1,0 +1,32 @@
+Introduction to TestNG:
+-----------------------
+
+- Overview
+- Install TestNG and write First TestNG Test Case
+- Create Multiple Test Cases in TestNG and Run.
+- Execute Multiple Test Cases using XML.
+
+Overview:
+---------
+	- There are two Testing Frameworks available in Selenium based on Java:
+		- JUnit
+		- TestNG (NG stands for Next Generation)
+	- TestNG Testing Framework:
+		- JUnit(Java Platform) + NUnit(.NET Platform) + Additional Functionalities = TestNG (More Powerful and Easy to Use).
+		- TestNG Testing Framework is designed to simplify a broad range of testing needs from Unit Testing to System Testing.
+		- TestNG framework was initially developed for Unit Testing and is now being used for all kinds of testing.
+		- TestNG is an Open Source Testing Framework. 	
+	- Advantages of TestNG:
+		- TestNG Annotations are easy to use in creating the Test Cases.
+		- Grouping and Prioritization of Test Cases can be done easily.
+		- Supports Parameterization.
+		- Supports Data Driven Testing using Dataproviders.
+		- Generates Detailed Test Reports in HTML format.
+		- Parallel Test Execution is possible.
+		- Supports Integration with other tools and Plug ins like Eclipse IDE, Build Tools like Maven, Ant.
+		- In a brief sentence TestNG Testing Framework can be used to Create Test Cases, Group Test Cases, Prioritize Test Cases, Execute Test Cases and Generate Detailed Test Reports.
+
+TestNG Installation in Eclipse IDE:
+-----------------------------------
+	- Help Menu -> Install New Software -> Click Add -> Enter Name as "TestNG" -> Enter URL as "http://beust.com/eclipse/" -> Select "TestNG" -> -< Next -> Next -> Accept the Agreement -> Finish
+	  
