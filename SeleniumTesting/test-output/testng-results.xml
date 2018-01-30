@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23754" started-at="2018-01-30T22:11:16Z" finished-at="2018-01-30T22:11:39Z">
+  <suite name="Default suite" duration-ms="84757" started-at="2018-01-30T22:39:13Z" finished-at="2018-01-30T22:40:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23754" started-at="2018-01-30T22:11:16Z" finished-at="2018-01-30T22:11:39Z">
-      <class name="com.testngframework.SampleTestCase1">
-        <test-method status="PASS" signature="titleCheck()[pri:0, instance:com.testngframework.SampleTestCase1@28feb3fa]" name="titleCheck" duration-ms="23734" started-at="2018-01-30T16:11:16Z" finished-at="2018-01-30T16:11:39Z">
+    <test name="Default test" duration-ms="84757" started-at="2018-01-30T22:39:13Z" finished-at="2018-01-30T22:40:37Z">
+      <class name="com.testngframework.SampleTestCase2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testngframework.SampleTestCase2@28feb3fa]" name="test1" duration-ms="15668" started-at="2018-01-30T16:39:13Z" finished-at="2018-01-30T16:39:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleCheck -->
-      </class> <!-- com.testngframework.SampleTestCase1 -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testngframework.SampleTestCase2@28feb3fa]" name="test2" duration-ms="19931" started-at="2018-01-30T16:39:28Z" finished-at="2018-01-30T16:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.testngframework.SampleTestCase2@28feb3fa]" name="test3" duration-ms="26926" started-at="2018-01-30T16:39:48Z" finished-at="2018-01-30T16:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.testngframework.SampleTestCase2@28feb3fa]" name="test4" duration-ms="22196" started-at="2018-01-30T16:40:15Z" finished-at="2018-01-30T16:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- com.testngframework.SampleTestCase2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
