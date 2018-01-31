@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jan 31 12:45:51 CST 2018</td>
+<td>Started on:</td><td>Wed Jan 31 13:38:25 CST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>102 seconds (102919 ms)</td>
+<tr><td>Total time:</td><td>216 seconds (216533 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,86 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testngframework.SampleTestCase5.deals()'><b>deals</b><br>Test class: com.testngframework.SampleTestCase5</td>
+<td><div><pre>java.lang.AssertionError: expected [Deal of the Day?] but found [Deal of the Day]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.testngframework.SampleTestCase5.deals(SampleTestCase5.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1267149311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1267149311'><pre>java.lang.AssertionError: expected [Deal of the Day?] but found [Deal of the Day]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.testngframework.SampleTestCase5.deals(SampleTestCase5.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,35 +155,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testngframework.SampleTestCase4.deals()'><b>deals</b><br>Test class: com.testngframework.SampleTestCase4</td>
+<td title='com.testngframework.SampleTestCase5.giftCards()'><b>giftCards</b><br>Test class: com.testngframework.SampleTestCase5</td>
+<td></td>
+<td>52</td>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
+<tr>
+<td title='com.testngframework.SampleTestCase5.help()'><b>help</b><br>Test class: com.testngframework.SampleTestCase5</td>
+<td></td>
+<td>41</td>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
+<tr>
+<td title='com.testngframework.SampleTestCase5.registry()'><b>registry</b><br>Test class: com.testngframework.SampleTestCase5</td>
+<td></td>
+<td>49</td>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
+<tr>
+<td title='com.testngframework.SampleTestCase5.sell()'><b>sell</b><br>Test class: com.testngframework.SampleTestCase5</td>
+<td></td>
+<td>36</td>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
+<tr>
+<td title='com.testngframework.SampleTestCase5.signin()'><b>signin</b><br>Test class: com.testngframework.SampleTestCase5</td>
 <td></td>
 <td>18</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
-<tr>
-<td title='com.testngframework.SampleTestCase4.giftCards()'><b>giftCards</b><br>Test class: com.testngframework.SampleTestCase4</td>
-<td></td>
-<td>16</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
-<tr>
-<td title='com.testngframework.SampleTestCase4.help()'><b>help</b><br>Test class: com.testngframework.SampleTestCase4</td>
-<td></td>
-<td>17</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
-<tr>
-<td title='com.testngframework.SampleTestCase4.registry()'><b>registry</b><br>Test class: com.testngframework.SampleTestCase4</td>
-<td></td>
-<td>15</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
-<tr>
-<td title='com.testngframework.SampleTestCase4.sell()'><b>sell</b><br>Test class: com.testngframework.SampleTestCase4</td>
-<td></td>
-<td>15</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
-<tr>
-<td title='com.testngframework.SampleTestCase4.signin()'><b>signin</b><br>Test class: com.testngframework.SampleTestCase4</td>
-<td></td>
-<td>19</td>
-<td>com.testngframework.SampleTestCase4@28feb3fa</td></tr>
+<td>com.testngframework.SampleTestCase5@28feb3fa</td></tr>
 </table><p>
 </body>
 </html>
