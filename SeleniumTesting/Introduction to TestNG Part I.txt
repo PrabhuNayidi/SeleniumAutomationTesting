@@ -35,3 +35,11 @@ TestNG Installation in Eclipse IDE:
 -----------------------------------
 	- Help Menu -> Install New Software -> Click Add -> Enter Name as "TestNG" -> Enter URL as "http://beust.com/eclipse/" -> Select "TestNG" -> -< Next -> Next -> Accept the Agreement -> Finish
 	
+
+Note : (See SampleTestCase5.java file in com.testngframework package)
+---------------------------------------------------------------------
+	- Hard Dependency -> @Test(dependsOnMethods={"methodName"}) -> After Test Case Failure, the remaining Test Cases won't be executed
+	- Soft Dependency -> @Test(dependsOnMethods={"methodName"}, alwaysRun=true) -> After Test Case Failure, the remaining Test Cases can be executed
+	
+
+	
