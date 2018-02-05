@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\PrabhuPushpaKumar\AppData\Local\Temp\testng-eclipse-649338109\testng-customsuite.xml</span>
+                    <span>C:\Users\PrabhuPushpaKumar\AppData\Local\Temp\testng-eclipse--648515780\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="deals">deals</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,27 +102,32 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="giftCards">giftCards</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp1">webApp1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="help">help</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp2">webApp2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="registry">registry</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp3">webApp3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="sell">sell</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp4">webApp4</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase5" hash-for-method="signin">signin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp5">webApp5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testngframework.SampleTestCase6" hash-for-method="webApp6">webApp6</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -151,95 +142,52 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.testngframework.SampleTestCase5</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="deals">
-                  </a> <!-- deals -->
-                  <span class="method-name">deals</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Deal of the Day?] but found [Deal of the Day]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.testngframework.SampleTestCase5.deals(SampleTestCase5.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.runSuites(TestNG.java:1028)
-	at org.testng.TestNG.run(TestNG.java:996)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testngframework.SampleTestCase5</span>
+              <span class="class-name">com.testngframework.SampleTestCase6</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="giftCards">
-                  </a> <!-- giftCards -->
-                  <span class="method-name">giftCards</span>
+                  <a name="webApp1">
+                  </a> <!-- webApp1 -->
+                  <span class="method-name">webApp1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="help">
-                  </a> <!-- help -->
-                  <span class="method-name">help</span>
+                  <a name="webApp2">
+                  </a> <!-- webApp2 -->
+                  <span class="method-name">webApp2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="registry">
-                  </a> <!-- registry -->
-                  <span class="method-name">registry</span>
+                  <a name="webApp3">
+                  </a> <!-- webApp3 -->
+                  <span class="method-name">webApp3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="sell">
-                  </a> <!-- sell -->
-                  <span class="method-name">sell</span>
+                  <a name="webApp4">
+                  </a> <!-- webApp4 -->
+                  <span class="method-name">webApp4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="signin">
-                  </a> <!-- signin -->
-                  <span class="method-name">signin</span>
+                  <a name="webApp5">
+                  </a> <!-- webApp5 -->
+                  <span class="method-name">webApp5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webApp6">
+                  </a> <!-- webApp6 -->
+                  <span class="method-name">webApp6</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,7 +195,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\PrabhuPushpaKumar\AppData\Local\Temp\testng-eclipse-649338109\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\PrabhuPushpaKumar\AppData\Local\Temp\testng-eclipse--648515780\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -256,7 +204,7 @@
 &lt;suite thread-count=&quot;-1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testngframework.SampleTestCase5&quot;/&gt;
+      &lt;class name=&quot;com.testngframework.SampleTestCase6&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -298,34 +246,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'giftCards')
-data.setCell(0, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(0, 3, 52353);
+data.setCell(0, 1, 'webApp5')
+data.setCell(0, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(0, 3, 15547);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registry')
-data.setCell(1, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(1, 3, 49932);
+data.setCell(1, 1, 'webApp6')
+data.setCell(1, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(1, 3, 13656);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'help')
-data.setCell(2, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(2, 3, 41353);
+data.setCell(2, 1, 'webApp3')
+data.setCell(2, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(2, 3, 10257);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'sell')
-data.setCell(3, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(3, 3, 36372);
+data.setCell(3, 1, 'webApp1')
+data.setCell(3, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(3, 3, 8988);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'signin')
-data.setCell(4, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(4, 3, 18490);
+data.setCell(4, 1, 'webApp4')
+data.setCell(4, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(4, 3, 8954);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deals')
-data.setCell(5, 2, 'com.testngframework.SampleTestCase5')
-data.setCell(5, 3, 17996);
+data.setCell(5, 1, 'webApp2')
+data.setCell(5, 2, 'com.testngframework.SampleTestCase6')
+data.setCell(5, 3, 7223);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -351,33 +299,79 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testngframework.SampleTestCase5</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">signin</span>
+              <div class="chronological-class-name">com.testngframework.SampleTestCase6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">deals</span>
-                <span class="method-start">18496 ms</span>
+                <span class="method-name">webApp6</span>
+                <span class="method-start">11748 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">25406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">28302 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">giftCards</span>
-                <span class="method-start">36497 ms</span>
+                <span class="method-name">webApp3</span>
+                <span class="method-start">37098 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">47359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">48414 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">registry</span>
-                <span class="method-start">88852 ms</span>
+                <span class="method-name">webApp5</span>
+                <span class="method-start">57317 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">72866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">76320 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">sell</span>
-                <span class="method-start">138786 ms</span>
+                <span class="method-name">webApp2</span>
+                <span class="method-start">85178 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">92402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">92874 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">help</span>
-                <span class="method-start">175160 ms</span>
+                <span class="method-name">webApp1</span>
+                <span class="method-start">99864 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">108855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">109516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">webApp4</span>
+                <span class="method-start">116068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitBrowser</span>
+                <span class="method-start">125025 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

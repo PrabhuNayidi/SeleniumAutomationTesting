@@ -3,12 +3,18 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testngframework.SampleTestCase5">
+      <class name="com.testngframework.SampleTestCase6">
         <methods>
-          <include name="signin"/>
-          <include name="deals"/>
+          <include name="exitBrowser"/>
+          <include name="webApp1"/>
+          <include name="webApp4"/>
+          <include name="webApp3"/>
+          <include name="webApp5"/>
+          <include name="webApp2"/>
+          <include name="webApp6"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.testngframework.SampleTestCase5 -->
+      </class> <!-- com.testngframework.SampleTestCase6 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

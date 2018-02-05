@@ -1,45 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="216533" started-at="2018-01-31T19:38:25Z" finished-at="2018-01-31T19:42:02Z">
+  <suite name="Default suite" duration-ms="127258" started-at="2018-02-05T21:09:33Z" finished-at="2018-02-05T21:11:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="216533" started-at="2018-01-31T19:38:25Z" finished-at="2018-01-31T19:42:02Z">
-      <class name="com.testngframework.SampleTestCase5">
-        <test-method status="PASS" signature="signin()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="signin" duration-ms="18490" started-at="2018-01-31T13:38:25Z" finished-at="2018-01-31T13:38:44Z">
+    <test name="Default test" duration-ms="127258" started-at="2018-02-05T21:09:33Z" finished-at="2018-02-05T21:11:40Z">
+      <class name="com.testngframework.SampleTestCase6">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="11748" started-at="2018-02-05T15:09:33Z" finished-at="2018-02-05T15:09:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signin -->
-        <test-method status="FAIL" signature="deals()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="deals" duration-ms="17996" started-at="2018-01-31T13:38:44Z" depends-on-methods="com.testngframework.SampleTestCase5.signin" finished-at="2018-01-31T13:39:02Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Deal of the Day?] but found [Deal of the Day]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Deal of the Day?] but found [Deal of the Day]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.testngframework.SampleTestCase5.deals(SampleTestCase5.java:40)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp6()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp6" duration-ms="13656" started-at="2018-02-05T15:09:45Z" finished-at="2018-02-05T15:09:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deals -->
-        <test-method status="PASS" signature="giftCards()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="giftCards" duration-ms="52353" started-at="2018-01-31T13:39:02Z" depends-on-methods="com.testngframework.SampleTestCase5.deals" finished-at="2018-01-31T13:39:54Z">
+        </test-method> <!-- webApp6 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="2895" started-at="2018-02-05T15:09:59Z" finished-at="2018-02-05T15:10:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- giftCards -->
-        <test-method status="PASS" signature="registry()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="registry" duration-ms="49932" started-at="2018-01-31T13:39:54Z" depends-on-methods="com.testngframework.SampleTestCase5.giftCards" finished-at="2018-01-31T13:40:44Z">
+        </test-method> <!-- exitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="8796" started-at="2018-02-05T15:10:02Z" finished-at="2018-02-05T15:10:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registry -->
-        <test-method status="PASS" signature="sell()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="sell" duration-ms="36372" started-at="2018-01-31T13:40:44Z" depends-on-methods="com.testngframework.SampleTestCase5.registry" finished-at="2018-01-31T13:41:20Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp3()[pri:1, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp3" duration-ms="10257" started-at="2018-02-05T15:10:10Z" finished-at="2018-02-05T15:10:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sell -->
-        <test-method status="PASS" signature="help()[pri:0, instance:com.testngframework.SampleTestCase5@28feb3fa]" name="help" duration-ms="41353" started-at="2018-01-31T13:41:20Z" depends-on-methods="com.testngframework.SampleTestCase5.sell" finished-at="2018-01-31T13:42:02Z">
+        </test-method> <!-- webApp3 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="1054" started-at="2018-02-05T15:10:21Z" finished-at="2018-02-05T15:10:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- help -->
-      </class> <!-- com.testngframework.SampleTestCase5 -->
+        </test-method> <!-- exitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="8903" started-at="2018-02-05T15:10:22Z" finished-at="2018-02-05T15:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp5()[pri:2, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp5" duration-ms="15547" started-at="2018-02-05T15:10:31Z" finished-at="2018-02-05T15:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webApp5 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="3453" started-at="2018-02-05T15:10:46Z" finished-at="2018-02-05T15:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="8857" started-at="2018-02-05T15:10:50Z" finished-at="2018-02-05T15:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp2()[pri:3, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp2" duration-ms="7223" started-at="2018-02-05T15:10:58Z" finished-at="2018-02-05T15:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webApp2 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="472" started-at="2018-02-05T15:11:06Z" finished-at="2018-02-05T15:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="6990" started-at="2018-02-05T15:11:06Z" finished-at="2018-02-05T15:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp1()[pri:4, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp1" duration-ms="8988" started-at="2018-02-05T15:11:13Z" finished-at="2018-02-05T15:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webApp1 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="660" started-at="2018-02-05T15:11:22Z" finished-at="2018-02-05T15:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="openBrowser" is-config="true" duration-ms="6552" started-at="2018-02-05T15:11:23Z" finished-at="2018-02-05T15:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="webApp4()[pri:5, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="webApp4" duration-ms="8954" started-at="2018-02-05T15:11:29Z" finished-at="2018-02-05T15:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webApp4 -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase6@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="2210" started-at="2018-02-05T15:11:38Z" finished-at="2018-02-05T15:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- com.testngframework.SampleTestCase6 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
