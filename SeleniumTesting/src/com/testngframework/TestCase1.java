@@ -1,12 +1,12 @@
 package com.testngframework;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestCase1 
 {
-  @BeforeClass
+  @BeforeTest
   public void login()
   {
 	  System.out.println("You have logged into your Account Successfully!");
@@ -36,7 +36,7 @@ public class TestCase1
 	  System.out.println("The Selected User was deleted from the Existing Records Successfully!");
   }
   
-  @AfterClass
+  @AfterTest
   public void logout()
   {
 	  System.out.println("You have logged out of your Account Successfully!");
