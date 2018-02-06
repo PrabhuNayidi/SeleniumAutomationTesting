@@ -5,7 +5,7 @@
       <class name="com.testngframework.TestCase1"/>
       <class name="com.testngframework.TestCase2"/>
       <class name="com.testngframework.TestCase3"/>
-      <class name="com.testngframework.TestCase3"/>
+      <class name="com.testngframework.TestCase4"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
