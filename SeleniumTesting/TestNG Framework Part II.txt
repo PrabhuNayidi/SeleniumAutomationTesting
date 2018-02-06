@@ -44,3 +44,7 @@ TestNG Framework Part II:
 	  			</classes>
 	  		</test>
 	  	</suite>
+	  	
+	- Parallel Test Execution:
+	  ------------------------
+	  	
