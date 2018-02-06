@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
-  <test name="Test">
+<suite name="SampleSuite" parallel="false">
+  <test name="SampleTestCases">
     <classes>
       <class name="com.testngframework.TestCase1"/>
       <class name="com.testngframework.TestCase2"/>
