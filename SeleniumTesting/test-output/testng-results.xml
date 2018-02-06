@@ -2,92 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="SampleSuite" duration-ms="102" started-at="2018-02-06T20:47:13Z" finished-at="2018-02-06T20:47:14Z">
+  <suite name="SampleSuite" duration-ms="65" started-at="2018-02-06T21:06:00Z" finished-at="2018-02-06T21:06:00Z">
     <groups>
     </groups>
-    <test name="SampleTestCases" duration-ms="102" started-at="2018-02-06T20:47:13Z" finished-at="2018-02-06T20:47:14Z">
+    <test name="SampleTestCases" duration-ms="65" started-at="2018-02-06T21:06:00Z" finished-at="2018-02-06T21:06:00Z">
       <class name="com.testngframework.TestCase2">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase2@4678c730]" name="login" is-config="true" duration-ms="0" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="checkUser()[pri:1, instance:com.testngframework.TestCase2@4678c730]" name="checkUser" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="checkUser()[pri:1, instance:com.testngframework.TestCase2@39aeed2f]" name="checkUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUser -->
       </class> <!-- com.testngframework.TestCase2 -->
       <class name="com.testngframework.TestCase4">
-        <test-method status="PASS" signature="checkUser()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="checkUser" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="checkUser()[pri:0, instance:com.testngframework.TestCase4@4678c730]" name="checkUser" duration-ms="3" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUser -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="login" is-config="true" duration-ms="0" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="logout" is-config="true" duration-ms="4" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="login" is-config="true" duration-ms="0" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="createUser" duration-ms="5" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testngframework.TestCase4@4678c730]" name="createUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="logout" is-config="true" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="login" is-config="true" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="deleteUser" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testngframework.TestCase4@4678c730]" name="deleteUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="logout" is-config="true" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="login" is-config="true" duration-ms="0" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="editUser" duration-ms="2" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testngframework.TestCase4@4678c730]" name="editUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editUser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase4@29ee9faa]" name="logout" is-config="true" duration-ms="1" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
       </class> <!-- com.testngframework.TestCase4 -->
       <class name="com.testngframework.TestCase1">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="login" is-config="true" duration-ms="9" started-at="2018-02-06T14:47:13Z" finished-at="2018-02-06T14:47:13Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="login" is-config="true" duration-ms="10" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="checkUser()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="checkUser" duration-ms="8" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="checkUser()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="checkUser" duration-ms="9" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUser -->
-        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="createUser" duration-ms="4" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="createUser" duration-ms="2" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="deleteUser" duration-ms="5" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="deleteUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="editUser" duration-ms="2" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="editUser" duration-ms="1" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editUser -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase1@724af044]" name="logout" is-config="true" duration-ms="2" started-at="2018-02-06T14:47:14Z" finished-at="2018-02-06T14:47:14Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase1@5c7fa833]" name="logout" is-config="true" duration-ms="0" started-at="2018-02-06T15:06:00Z" finished-at="2018-02-06T15:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
