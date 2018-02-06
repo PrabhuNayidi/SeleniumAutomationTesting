@@ -12,3 +12,6 @@ TestNG Framework Part II:
 	  			</classes>
 	  		</test>
 	  	</suite>
+	  	
+	  - Select a Package in the java project and right click -> select New -> select Other -> Type TestNG in Wizards -> Select TestNG Class -> click Next -> Give Source Folder, Package Name, Class Name, xml suite name.
+	  
