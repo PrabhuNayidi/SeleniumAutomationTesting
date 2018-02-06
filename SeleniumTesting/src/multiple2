@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
-  <test name="Test">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="false">
+  <test name="Test1">
+  	<groups>
+  		<run>
+  			<include name="Amazon">
+  		</run>
+  	</groups>
     <classes>
       <class name="com.testngframework.TestCase5"/>
     </classes>
