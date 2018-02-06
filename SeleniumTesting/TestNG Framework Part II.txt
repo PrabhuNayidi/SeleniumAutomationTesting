@@ -27,3 +27,20 @@ TestNG Framework Part II:
 	  		
 	  		- @BeforeTest -> The Annotated Method will be executed before any Test Method mentioned within the Classes tag in the xml file.
 	  		- @AfterTest -> The Annotated Method will be executed after all Test Methods mentioned within the Classes tag in the xml file.
+	  		
+	- Grouping Test Cases:
+	  --------------------
+	  	<suite name = "suiteName">
+	  		<test name = "testName">
+	  			<groups>
+	  				<run>
+	  					<include name="groupName">
+	  				</run>
+	  			</groups>
+	  			<classes>
+	  				<class name = "className1">
+	  				<class name = "className2">
+	  				<class name = "className3">
+	  			</classes>
+	  		</test>
+	  	</suite>
