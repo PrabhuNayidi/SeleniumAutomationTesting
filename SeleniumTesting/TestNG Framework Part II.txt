@@ -1,4 +1,14 @@
 TestNG Framework Part II:
 -------------------------
 
-	- 
+	- Executing Multiple Test Cases (Classes)using XML file:
+	  ------------------------------------------------------
+	  	<suite name = "suiteName">
+	  		<test name = "testName">
+	  			<classes>
+	  				<class name = "className1">
+	  				<class name = "className2">
+	  				<class name = "className3">
+	  			</classes>
+	  		</test>
+	  	</suite>
