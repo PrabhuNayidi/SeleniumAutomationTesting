@@ -14,4 +14,16 @@ TestNG Framework Part II:
 	  	</suite>
 	  	
 	  - Select a Package in the java project and right click -> select New -> select Other -> Type TestNG in Wizards -> Select TestNG Class -> click Next -> Give Source Folder, Package Name, Class Name, xml suite name.
-	  
+	
+	- TestNG Annotations:
+	  -------------------
+	  		- @Test -> The Annotated Part is a part of a Test Case.
+	  		
+	  		- @BeforeMethod -> The Annotated Method will be executed before each Test Method.
+	  		- @AfterMethod -> The Annotated Method will be executed after each Test Method.
+	  		
+	  		- @BeforeClass -> The Annotated Method will be executed before invoking the first Test Method of the current class.
+	  		- @AfterClass -> The Annotated Method will be executed after invoking all the Test Methods of the current class.
+	  		
+	  		- @BeforeTest -> The Annotated Method will be executed before any Test Method mentioned within the Classes tag in the xml file.
+	  		- @AfterTest -> The Annotated Method will be executed after all Test Methods mentioned within the Classes tag in the xml file.
