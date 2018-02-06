@@ -9,7 +9,7 @@ public class TestCase5
   @BeforeClass(groups = {"Sanity", "Regression"})
   public void login() 
   {
-	  System.out.println("You have successfully loggeed into your Account!!");
+	  System.out.println("You have successfully logged into your Account!!");
   }
   
   @Test(groups = {"Sanity", "Regression"})
@@ -57,12 +57,12 @@ public class TestCase5
   @Test(groups = {"Sanity", "Regression"})
   public void addAuthorizedUser() 
   {
-	  System.out.println("You Address has been Updated and was posted on your Account!!");
+	  System.out.println("A New Authorized User was added to your Account!!");
   }
   
   @AfterClass(groups = {"Sanity", "Regression"})
   public void logout() 
   {
-	  System.out.println("You have successfully loggeed out of your Account!!");
+	  System.out.println("You have successfully logged out of your Account!!");
   }
 }
