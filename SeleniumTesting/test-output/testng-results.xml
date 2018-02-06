@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65454" started-at="2018-02-05T21:27:45Z" finished-at="2018-02-05T21:28:50Z">
+  <suite name="Default suite" duration-ms="110" started-at="2018-02-06T19:11:49Z" finished-at="2018-02-06T19:11:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65454" started-at="2018-02-05T21:27:45Z" finished-at="2018-02-05T21:28:50Z">
-      <class name="com.testngframework.SampleTestCase7">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="openBrowser" is-config="true" duration-ms="10542" started-at="2018-02-05T15:27:45Z" finished-at="2018-02-05T15:27:55Z">
+    <test name="Default test" duration-ms="110" started-at="2018-02-06T19:11:49Z" finished-at="2018-02-06T19:11:49Z">
+      <class name="com.testngframework.TestCase1">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="login" is-config="true" duration-ms="10" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="webApp6()[pri:0, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp6" duration-ms="5557" started-at="2018-02-05T15:27:55Z" finished-at="2018-02-05T15:28:01Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="checkUser()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="checkUser" duration-ms="7" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webApp6 -->
-        <test-method status="PASS" signature="webApp3()[pri:1, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp3" duration-ms="4999" started-at="2018-02-05T15:28:01Z" finished-at="2018-02-05T15:28:06Z">
+        </test-method> <!-- checkUser -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="createUser" duration-ms="1" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webApp3 -->
-        <test-method status="PASS" signature="webApp5()[pri:2, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp5" duration-ms="23502" started-at="2018-02-05T15:28:06Z" finished-at="2018-02-05T15:28:29Z">
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="deleteUser" duration-ms="1" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webApp5 -->
-        <test-method status="PASS" signature="webApp2()[pri:3, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp2" duration-ms="5711" started-at="2018-02-05T15:28:29Z" finished-at="2018-02-05T15:28:35Z">
+        </test-method> <!-- deleteUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="editUser" duration-ms="1" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webApp2 -->
-        <test-method status="PASS" signature="webApp1()[pri:4, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp1" duration-ms="5229" started-at="2018-02-05T15:28:35Z" finished-at="2018-02-05T15:28:40Z">
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase1@1b604f19]" name="logout" is-config="true" duration-ms="0" started-at="2018-02-06T13:11:49Z" finished-at="2018-02-06T13:11:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webApp1 -->
-        <test-method status="PASS" signature="webApp4()[pri:5, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="webApp4" duration-ms="6347" started-at="2018-02-05T15:28:40Z" finished-at="2018-02-05T15:28:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webApp4 -->
-        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:com.testngframework.SampleTestCase7@29ee9faa]" name="exitBrowser" is-config="true" duration-ms="3525" started-at="2018-02-05T15:28:47Z" finished-at="2018-02-05T15:28:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exitBrowser -->
-      </class> <!-- com.testngframework.SampleTestCase7 -->
+        </test-method> <!-- logout -->
+      </class> <!-- com.testngframework.TestCase1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
