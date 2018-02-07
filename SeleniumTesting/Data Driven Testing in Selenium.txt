@@ -17,3 +17,5 @@ Data Driven Testing in Selenium: (Using Data Provider Annotation)
 	  	- Test Data Preparation (file).
 	  		- Download jexcel jar file and extract that jar file.
 	  		- Add the extracted folder to the Java Main Project.
+	  			- Right click on Java Project -> Build Path -> Configure Build Path -> Select Libraries Tab -> Select Add External JARs -> Browse the JAR file path -> Click open -> Click Apply -> click ok.
+	  			
