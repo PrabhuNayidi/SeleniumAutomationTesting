@@ -1,70 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="60" started-at="2018-02-06T21:50:42Z" finished-at="2018-02-06T21:50:42Z">
+  <suite name="Suite" duration-ms="58" started-at="2018-02-07T16:38:26Z" finished-at="2018-02-07T16:38:26Z">
     <groups>
-      <group name="Sanity">
-        <method signature="TestCase5.addAuthorizedUser()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addAuthorizedUser" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.addressChange()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addressChange" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.balance()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="balance" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.creditLimitIncrease()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="creditLimitIncrease" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.pendingTransactions()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="pendingTransactions" class="com.testngframework.TestCase5"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TestCase5.addAuthorizedUser()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addAuthorizedUser" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.addressChange()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addressChange" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.approvedTransactions()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="approvedTransactions" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.balance()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="balance" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.creditCheck()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="creditCheck" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.creditLimitIncrease()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="creditLimitIncrease" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.fraudAlerts()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="fraudAlerts" class="com.testngframework.TestCase5"/>
-        <method signature="TestCase5.pendingTransactions()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="pendingTransactions" class="com.testngframework.TestCase5"/>
-      </group> <!-- Regression -->
     </groups>
-    <test name="Test1" duration-ms="60" started-at="2018-02-06T21:50:42Z" finished-at="2018-02-06T21:50:42Z">
-      <class name="com.testngframework.TestCase5">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="login" is-config="true" duration-ms="9" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
+    <test name="Test" duration-ms="58" started-at="2018-02-07T16:38:26Z" finished-at="2018-02-07T16:38:26Z">
+      <class name="com.testngframework.TestCase6">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:com.testngframework.TestCase6@d2cc05a]" name="tc1" duration-ms="12" started-at="2018-02-07T10:38:26Z" finished-at="2018-02-07T10:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="addAuthorizedUser()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addAuthorizedUser" duration-ms="6" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:com.testngframework.TestCase6@d2cc05a]" name="tc2" duration-ms="1" started-at="2018-02-07T10:38:26Z" finished-at="2018-02-07T10:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addAuthorizedUser -->
-        <test-method status="PASS" signature="addressChange()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="addressChange" duration-ms="1" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:com.testngframework.TestCase6@d2cc05a]" name="tc3" duration-ms="2" started-at="2018-02-07T10:38:26Z" finished-at="2018-02-07T10:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addressChange -->
-        <test-method status="PASS" signature="approvedTransactions()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="approvedTransactions" duration-ms="1" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:com.testngframework.TestCase6@d2cc05a]" name="tc4" duration-ms="2" started-at="2018-02-07T10:38:26Z" finished-at="2018-02-07T10:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- approvedTransactions -->
-        <test-method status="PASS" signature="balance()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="balance" duration-ms="1" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:com.testngframework.TestCase6@d2cc05a]" name="tc5" duration-ms="2" started-at="2018-02-07T10:38:26Z" finished-at="2018-02-07T10:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- balance -->
-        <test-method status="PASS" signature="creditCheck()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="creditCheck" duration-ms="1" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditCheck -->
-        <test-method status="PASS" signature="creditLimitIncrease()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="creditLimitIncrease" duration-ms="2" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creditLimitIncrease -->
-        <test-method status="PASS" signature="fraudAlerts()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="fraudAlerts" duration-ms="2" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- fraudAlerts -->
-        <test-method status="PASS" signature="pendingTransactions()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="pendingTransactions" duration-ms="1" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pendingTransactions -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.testngframework.TestCase5@4678c730]" name="logout" is-config="true" duration-ms="2" started-at="2018-02-06T15:50:42Z" finished-at="2018-02-06T15:50:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- com.testngframework.TestCase5 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- tc5 -->
+      </class> <!-- com.testngframework.TestCase6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
