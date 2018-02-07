@@ -1,4 +1,19 @@
-Data Driven Testing in Selenium:
+Data Driven Testing in Selenium: (Using Data Provider Annotation)
 --------------------------------
 
-	- 
+	- Java Programming Methods are different from TestNG Test Methods.
+	- Read Test Data (String Type) from Excel file and Perform Data Driven Testing for Admin Login.
+	- Read Test Data (Integer Type) from Excel file and perform Data Driven Testing for Mathematical Operations.
+	
+	- Steps for Reading Test Data (String Type) from Excel file and Perform Data Driven Testing for Admin Login:
+	  ----------------------------------------------------------------------------------------------------------
+	  	- Launch Browser.
+	  	- Navigate to http://www.gcrit.com/build3/admin/
+	  	- Enter Username
+	  	- Enter Password
+	  	- Click Login Button.
+	  	- Verification Point:
+	  		- Capture URL -> Expected URL : http://www.gcrit.com/build3/admin/index.php
+	  	- Test Data Preparation (file).
+	  		- Download jexcel jar file and extract that jar file.
+	  		- Add the extracted folder to the Java Main Project.
