@@ -47,4 +47,4 @@ TestNG Framework Part II:
 	  	
 	- Parallel Test Execution:
 	  ------------------------
-	  	
+	  	- Thread -> A Thread is a Concurrent unit of Execution.
