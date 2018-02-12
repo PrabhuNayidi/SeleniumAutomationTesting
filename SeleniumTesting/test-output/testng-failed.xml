@@ -6,7 +6,7 @@
       <class name="com.datadriventesting.ddt2">
         <methods>
           <include name="openBrowser"/>
-          <include name="login" invocation-numbers="0"/>
+          <include name="login" invocation-numbers="0 1 2 3 4"/>
           <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.datadriventesting.ddt2 -->
