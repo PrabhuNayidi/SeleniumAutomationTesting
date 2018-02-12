@@ -3,18 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testngframework.SampleTestCase6">
+      <class name="com.datadriventesting.ddt2">
         <methods>
-          <include name="exitBrowser"/>
-          <include name="webApp1"/>
-          <include name="webApp4"/>
-          <include name="webApp3"/>
-          <include name="webApp5"/>
-          <include name="webApp2"/>
-          <include name="webApp6"/>
           <include name="openBrowser"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.testngframework.SampleTestCase6 -->
+      </class> <!-- com.datadriventesting.ddt2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

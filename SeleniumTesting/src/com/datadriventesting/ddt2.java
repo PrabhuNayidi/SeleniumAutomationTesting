@@ -60,6 +60,6 @@ public class ddt2
 	@AfterClass
 	public void quitBrowser()
 	{
-		
+		driver.quit();
 	}
 }
