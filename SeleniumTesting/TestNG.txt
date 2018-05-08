@@ -1,0 +1,18 @@
+TestNG Framework:
+-----------------
+
+	- Testing Frameworks on Selenium are (Based on Programming Languages):
+		- Java -> JUnit, TestNG
+		- C# -> NUnit
+		- PHP -> Behat + Mink
+		- Ruby -> Rspec, Test::Unit
+		- Python -> Pyunit, Py,test etc.
+		
+	- If we use priority attribute of @Test Annotation, then all the Test Cases will be executed.
+	- If we use dependsOnMethods attribute of @Test Annotation, then it will skip the Test Cases execution whenever dependsOnMethods Test Case fails, if you want to execute the Test Case forcibly then use alwaysRun attribute.
+	
+	- Scenario I -> If there is no Functionality Dependency among the TestNG Test Cases, use priority attribute of @Test Annotation.
+	- Scenario II -> If there is Functionality Dependency among the TestNG Test Cases, use dependsOnMethods attribute of @Test Annotation.
+	- Scenario III -> If there is Functionality Dependency among some TestNG Test Cases, use dependsOnMethods and alwaysRun attributes of @Test Annotation.
+	
+	
